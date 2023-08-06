@@ -33,6 +33,7 @@ Mobile.startApplication(appPath, false)
 
 'Click Search Bar'
 Mobile.tap(findTestObject('Home Page/Search Box'), 5)
+
 Mobile.waitForElementPresent(findTestObject('Search Page/Search Bar'), 15)
 
 'assert search page successfully opened'
@@ -40,15 +41,20 @@ Mobile.verifyElementExist(findTestObject('Search Page/Pencarian Populer Section'
 
 'Input Keyword "panadol"'
 Mobile.setText(findTestObject('Search Page/Search Bar'), 'panadol', 5)
+
 Mobile.waitForElementPresent(findTestObject('Search Page/Medicine item'), 15)
 
 'assert section obat successfully loaded'
 Mobile.verifyElementExist(findTestObject('Search Page/Category Tab'), 5)
+
 Mobile.verifyElementExist(findTestObject('Search Page/Toko Kesehatan Section'), 5)
 
 'Click First Panadol Item'
 Mobile.tap(findTestObject('Search Page/Medicine item'), 5)
+
 Mobile.waitForElementPresent(findTestObject('Product Detail Page/Webview Product Detail'), 15)
+
+Mobile.delay(5)
 
 'Assert Webview for product detail page successfully loaded'
 Mobile.verifyElementExist(findTestObject('Product Detail Page/Webview Product Detail'), 5)
@@ -60,6 +66,5 @@ Mobile.verifyElementExist(findTestObject('Product Detail Page/Webview Product De
 'Click icon shopping cart'
 
 'Assert shopping cart page & verify cart item'
-
 Mobile.closeApplication()
 
