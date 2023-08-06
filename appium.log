@@ -1,0 +1,294 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 52504
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/4t/cczm1cc13z34t80bzrn52h8h0000gp/T//Katalon/Appium/Temp1691251770151
+[35m[Appium][39m   chromedriverPort: 52505
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 52505
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52504
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/richardfindlaywijaya/Katalon Studio/GoodDoctorTestAssessment/AndroidApp/universal.apk","noReset":true,"appWaitActivity":"com.pajk.*","bundleId":"com.pajk.idpersonaldoc","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":false,"platform":"ANDROID","chromedriverExecutable":"/Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver","newCommandTimeout":1800,"platformVersion":"11.0","automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":52516},"capabilities":{"firstMatch":[{"appium:app":"/Users/richardfindlaywijaya/Katalon Studio/GoodDoctorTestAssessment/AndroidApp/universal.apk","appium:appWaitActivity":"com.pajk.*","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:bundleId":"com.pajk.idpersonaldoc","appium:chromedriverExecutable":"/Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver","deviceId":"emulator-5554","appium:dev...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   bundleId
+[35m[BaseDriver][39m Session created with session id: bfff5a08-c432-402d-acb6-22beb0b06313
+[35m[BaseDriver][39m Using local app '/Users/richardfindlaywijaya/Katalon Studio/GoodDoctorTestAssessment/AndroidApp/universal.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/richardfindlaywijaya/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/richardfindlaywijaya/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/richardfindlaywijaya/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/richardfindlaywijaya/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.pajk.idpersonaldoc'
+[35m[ADB][39m Main activity name: 'com.pajk.login.ui.JKLogoActivity'
+[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is not writeable. Will copy it into the temporary location at '/var/folders/4t/cczm1cc13z34t80bzrn52h8h0000gp/T/Katalon/Appium/Temp1691251770151/202375-6550-xqq9f.kp2ip' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/var/folders/4t/cczm1cc13z34t80bzrn52h8h0000gp/T/Katalon/Appium/Temp1691251770151/202375-6550-xqq9f.kp2ip' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/richardfindlaywijaya/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[ADB][39m '/var/folders/4t/cczm1cc13z34t80bzrn52h8h0000gp/T/Katalon/Appium/Temp1691251770151/202375-6550-xqq9f.kp2ip/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m '/var/folders/4t/cczm1cc13z34t80bzrn52h8h0000gp/T/Katalon/Appium/Temp1691251770151/202375-6550-xqq9f.kp2ip/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m '/Users/richardfindlaywijaya/Katalon Studio/GoodDoctorTestAssessment/AndroidApp/universal.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at '/Users/richardfindlaywijaya/Katalon Studio/GoodDoctorTestAssessment/AndroidApp/universal.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'universal.apk' took 153ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.pajk.idpersonaldoc/com.pajk.login.ui.JKLogoActivity and waiting for 'com.pajk.idpersonaldoc/com.pajk.*'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session bfff5a08-c432-402d-acb6-22beb0b06313 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8103 ms - 1732[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313 [39m[32m200[39m [90m9 ms - 1686[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313 [39m[32m200[39m [90m7 ms - 1686[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (bfff5a08)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6846e8c-d5da-420a-997b-0b0c11eb8453 with bfff5a08-c432-402d-acb6-22beb0b06313
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/source [39m[32m200[39m [90m697 ms - 9295[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/screenshot [39m[32m200[39m [90m247 ms - 332572[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (bfff5a08)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b6846e8c-d5da-420a-997b-0b0c11eb8453 with bfff5a08-c432-402d-acb6-22beb0b06313
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/source [39m[32m200[39m [90m89 ms - 5574[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/screenshot [39m[32m200[39m [90m301 ms - 650652[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m252 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x0000000102d6ff48 chromedriver + 4226888\n1   chromedriver                        0x0000000102d684f4 chromedriver + 4195572\n2   chromedriver                        0x00000001029acd68 chromedriver + 281960\n3   chromedriver                        0x00000001029d8bac chromedriver + 461740\n4   chromedriver                        0x00000001029d26e0 chromedriver + 435936\n5   chromedriver                        0x0000000102a0f93c chromedriver + 686396\n6   chromedriver                        0x0000000102a0f164 chromedriver + 684388\n7   chromedriver                        0x00000001029dbf1c chromedriver + 474908\n8   chromedriver                        0x00000001029dcef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m2608 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m207 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x000000010073bf48 chromedriver + 4226888\n1   chromedriver                        0x00000001007344f4 chromedriver + 4195572\n2   chromedriver                        0x0000000100378d68 chromedriver + 281960\n3   chromedriver                        0x00000001003a4bac chromedriver + 461740\n4   chromedriver                        0x000000010039e6e0 chromedriver + 435936\n5   chromedriver                        0x00000001003db93c chromedriver + 686396\n6   chromedriver                        0x00000001003db164 chromedriver + 684388\n7   chromedriver                        0x00000001003a7f1c chromedriver + 474908\n8   chromedriver                        0x00000001003a8ef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m346 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m197 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x000000010337bf48 chromedriver + 4226888\n1   chromedriver                        0x00000001033744f4 chromedriver + 4195572\n2   chromedriver                        0x0000000102fb8d68 chromedriver + 281960\n3   chromedriver                        0x0000000102fe4bac chromedriver + 461740\n4   chromedriver                        0x0000000102fde6e0 chromedriver + 435936\n5   chromedriver                        0x000000010301b93c chromedriver + 686396\n6   chromedriver                        0x000000010301b164 chromedriver + 684388\n7   chromedriver                        0x0000000102fe7f1c chromedriver + 474908\n8   chromedriver                        0x0000000102fe8ef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m317 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m206 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x000000010055ff48 chromedriver + 4226888\n1   chromedriver                        0x00000001005584f4 chromedriver + 4195572\n2   chromedriver                        0x000000010019cd68 chromedriver + 281960\n3   chromedriver                        0x00000001001c8bac chromedriver + 461740\n4   chromedriver                        0x00000001001c26e0 chromedriver + 435936\n5   chromedriver                        0x00000001001ff93c chromedriver + 686396\n6   chromedriver                        0x00000001001ff164 chromedriver + 684388\n7   chromedriver                        0x00000001001cbf1c chromedriver + 474908\n8   chromedriver                        0x00000001001ccef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m321 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m180 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x00000001008fbf48 chromedriver + 4226888\n1   chromedriver                        0x00000001008f44f4 chromedriver + 4195572\n2   chromedriver                        0x0000000100538d68 chromedriver + 281960\n3   chromedriver                        0x0000000100564bac chromedriver + 461740\n4   chromedriver                        0x000000010055e6e0 chromedriver + 435936\n5   chromedriver                        0x000000010059b93c chromedriver + 686396\n6   chromedriver                        0x000000010059b164 chromedriver + 684388\n7   chromedriver                        0x0000000100567f1c chromedriver + 474908\n8   chromedriver                        0x0000000100568ef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m308 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m182 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x000000010264bf48 chromedriver + 4226888\n1   chromedriver                        0x00000001026444f4 chromedriver + 4195572\n2   chromedriver                        0x0000000102288d68 chromedriver + 281960\n3   chromedriver                        0x00000001022b4bac chromedriver + 461740\n4   chromedriver                        0x00000001022ae6e0 chromedriver + 435936\n5   chromedriver                        0x00000001022eb93c chromedriver + 686396\n6   chromedriver                        0x00000001022eb164 chromedriver + 684388\n7   chromedriver                        0x00000001022b7f1c chromedriver + 474908\n8   chromedriver                        0x00000001022b8ef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m318 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/contexts [39m[32m200[39m [90m218 ms - 57[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_com.pajk.idpersonaldoc"}[39m
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver
+[35m[Chromedriver][39m No old chromedrivers seem to exist
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/richardfindlaywijaya/Downloads/chromedriver_mac_arm64/chromedriver --url-base=wd/hub --port=52505 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Starting W3C Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "capabilities": {
+[35m[Chromedriver][39m     "alwaysMatch": {
+[35m[Chromedriver][39m       "goog:chromeOptions": {
+[35m[Chromedriver][39m         "androidPackage": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidUseRunningApp": true,
+[35m[Chromedriver][39m         "androidProcess": "com.pajk.idpersonaldoc",
+[35m[Chromedriver][39m         "androidDeviceSerial": "emulator-5554"
+[35m[Chromedriver][39m       },
+[35m[Chromedriver][39m       "goog:loggingPrefs": {
+[35m[Chromedriver][39m         "browser": "ALL"
+[35m[Chromedriver][39m       }
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Got response with status 500: {"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 91.0.4472.114 with package name com.pajk.idpersonaldoc","stacktrace":"0   chromedriver                        0x000000010045ff48 chromedriver + 4226888\n1   chromedriver                        0x00000001004584f4 chromedriver + 4195572\n2   chromedriver                        0x000000010009cd68 chromedriver + 281960\n3   chromedriver                        0x00000001000c8bac chromedriver + 461740\n4   chromedriver                        0x00000001000c26e0 chromedriver + 435936\n5   chromedriver                        0x00000001000ff93c chromedriver + 686396\n6   chromedriver                        0x00000001000ff164 chromedriver + 684388\n7   chromedriver                        0x00000001000cbf1c chromedriver + 474908\n8   chromedriver                        0x00000001000ccef4 chromedriver + 478964\n9   chromedriver                        0x0000000...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313/context [39m[31m500[39m [90m317 ms - 917[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session bfff5a08-c432-402d-acb6-22beb0b06313 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/bfff5a08-c432-402d-acb6-22beb0b06313 [39m[32m200[39m [90m266 ms - 14[39m
+[35m[HTTP][39m [90m[39m
