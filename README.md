@@ -11,7 +11,7 @@ Hi, My Name is Richard Findlay Wijaya and this is my Automation practice using K
    - Katalon Studio
    - Android Studio --> install AVD emulator
      
-2. Clone this repository to locale ```git clone https://github.com/richard-wijaya/goodDoctor-automation-test.git```
+2. Clone this repository to locale ```git clone https://github.com/richard-wijaya/goodDoctor-automation-practice.git```
    
 4. Set up to run project
    - Connect Appium to Katalon Studio
@@ -19,7 +19,7 @@ Hi, My Name is Richard Findlay Wijaya and this is my Automation practice using K
     - Run command in terminal to start appium ```appium```
     - Run emulator
     - Set desired capabilities (Katalon Studio --> Projects --> Settings --> Desired capabilities --> Mobile --> Android)
-      - app : "/Users/(user-location)/GoodDoctorTestAssessment/AndroidApp/universal.apk"
+      - app : "/Users/(user-location)/(name-of-folder)t/AndroidApp/universal.apk"
       - noReset : true
       - platformVersion : (emulator-version)
       - bundleId : com.pajk.idpersonaldoc
