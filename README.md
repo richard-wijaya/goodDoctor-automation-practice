@@ -31,8 +31,8 @@ Hi, My Name is Richard Findlay Wijaya and this is my Automation practice using K
 5. Run Test case
    - Go to Test case ```Test Cases/User should be able to add medicine to shopping cart from search feature```
    - Run by clicking play button (Select running android emulator)
-   - Check log for automation process\
+   - Check log for automation process
   
-**Notes for reviewer:**
+**Notes:**
 - I skipped login process due to I'm testing on production app.. so in order to login, it need OTP verification which is impossible to be automation, therefore before run the test case, ensure user already logged in manually (this has also been stated in test case precondition)
 - The script that I've created only covered on Native page. Therefore there's a skip process on testing webview page.
