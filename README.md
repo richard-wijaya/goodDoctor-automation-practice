@@ -1,6 +1,6 @@
 # goodDoctor-automation-practice
 
-Hi, My Name is Richard Findlay Wijaya and this is my Automation practice. This is an automation project spesific for Android device.
+Hi, My Name is Richard Findlay Wijaya and this is my Automation practice using Katalon Studio. This is an automation project spesific for Android device.
 
 **Here's a complete instruction on how to executing the automation test (Mac version)**
 1. Make sure the following are already installed and set up in local
